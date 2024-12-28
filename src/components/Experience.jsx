@@ -36,7 +36,7 @@ const Experience = () => {
     <div className="p-8 max-w-full center">
       <h1 className="text-4xl text-gray-200 font-bold text-center mb-12">Experience</h1>
       <div className="relative">
-        <div className="absolute inset-y-0 left-1/2 transform -translate-x-1/2 border-l-2 border-blue-500"></div>
+        {/* <div className="absolute inset-y-0 left-1/2 transform -translate-x-1/2 border-l-2 border-blue-500"></div> */}
         <div>
       <VerticalTimeline>
         {experiences.map((element, index) => {
