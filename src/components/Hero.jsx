@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../assets/profpic.png";
+import profilepic from "../assets/profpic.jpg";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
@@ -13,8 +13,7 @@ import {
   DiJavascript1,
 } from "react-icons/di";
 
-import { TbBrandCpp } from "react-icons/tb";
-import { FaGolang } from "react-icons/fa6";
+
 
 
 import { motion } from "framer-motion";
@@ -73,18 +72,23 @@ const Hero = () => {
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
                     <motion.button whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
-                        className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
-                                     border-blue-400 rounded-xl"     
+                        className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-blue-400 rounded-xl"     
                     >
-                        Download Resume
+                        <a
+                            href="/resume.pdf" 
+                            rel="noopener noreferrer"
+                            className="text-gray-200 no-underline"
+                        >
+                            Download Resume
+                        </a>
                     </motion.button>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-blue-400 z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/SarthakSarans">
                             <AiOutlineGithub/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/sarthaksarans/">
                             <AiOutlineLinkedin/>
                         </motion.a>
 
@@ -98,6 +102,14 @@ const Hero = () => {
 
             <motion.img 
                 src={profilepic}
+                alt="COver Photo" 
+                style={{
+                    width: '500px', 
+                    height: '500px', 
+                    borderRadius: '75px', // Half of the height to create an oval
+                    border: '5px solid #ccc', 
+                    objectFit: 'cover'
+                  }} 
                 className="w-[300px] md:w-[450px]"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
