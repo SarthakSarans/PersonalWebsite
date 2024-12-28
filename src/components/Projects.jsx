@@ -19,8 +19,8 @@ const projects = [
     },
     {
       img: project2,
-      title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      title: "Tetris",
+      description: "C-based Tetris game on an ARM microcontroller, using SPI protocols, integrated graphics drivers, a 12-bit DAC, and an 11-bit ADC ",
       links: {
         site: "#",
         github: "#",

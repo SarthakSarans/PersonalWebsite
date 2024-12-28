@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
-
+import { Analytics } from "@vercel/analytics/react"
 export default function App() {
   return (
     <>
@@ -13,6 +13,7 @@ export default function App() {
       <Skills/>
       <Experience/>
       <Projects/>
+      <Analytics />
     </>
   )
 }
