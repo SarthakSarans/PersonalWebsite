@@ -14,7 +14,7 @@ const projects = [
       description: "ALU built on ARM architecture in Logisim, performs binary calculations and input/output.",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/SarthakSarans/ALU",
       },
     },
     {
@@ -23,22 +23,22 @@ const projects = [
       description: "C-based Tetris game on an ARM microcontroller, using SPI protocols, integrated graphics drivers, a 12-bit DAC, and an 11-bit ADC ",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/SarthakSarans/Tetris",
       },
     },
     {
       img: project4,
-      title: "Project #3",
-      description: "An e-commerce platform with various features.",
+      title: "Sierpinski’s Triangle ",
+      description: "A fractal visualization tool for Sierpinski’s Triangle using C++ and OpenGL",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/SarthakSarans/Sierpinskis-Triangle",
       },
     },
     {
       img: project5,
-      title: "Project #4",
-      description: "A mobile-friendly application using React Native.",
+      title: "Buck Converter",
+      description: "High-efficiency Buck Converter in KiCad",
       links: {
         site: "#",
         github: "#",
@@ -46,11 +46,11 @@ const projects = [
     },
     {
       img: project6,
-      title: "Project #5",
-      description: "A data visualization project using D3.js and other libraries.",
+      title: "Portfilio Website",
+      description: "Personal portfilio using React and Tailwind CSS",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/SarthakSarans/PersonalWebsite",
       },
     },
   ]
