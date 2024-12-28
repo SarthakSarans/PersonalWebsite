@@ -10,8 +10,8 @@ import Reveal from './Reveal';
 const projects = [
     {
       img: project1,
-      title: "Project #1",
-      description: "UI for frontend development using React.",
+      title: "Arithmetic Logic Unit",
+      description: "ALU built on ARM architecture in Logisim, performs binary calculations and input/output.",
       links: {
         site: "#",
         github: "#",
@@ -58,7 +58,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className='max-w-[1000px] mx-auto p-6 md:my-20' id="projects">
-        <h2 className='text-3xl font-bold text-gray-200 mb-8'>Projects</h2>
+        <h2 className='text-3xl text-center font-bold text-gray-200 mb-8'>Projects</h2>
         {projects.map((project, index) => (
             <Reveal>
             <div key={index} 

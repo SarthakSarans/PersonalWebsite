@@ -29,8 +29,6 @@ const Hero = () => {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             >
-                
-
                 <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
