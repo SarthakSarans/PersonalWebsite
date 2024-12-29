@@ -54,7 +54,7 @@ const Contact = () => {
           </div>
 
           <form
-            action="https://getform.io/f/placeYourEndpointHere"
+            action="https://getform.io/f/alllnzpa"
             method="POST"
             className=" max-w-6xl p-5 md:p-12"
             id="form"
@@ -67,14 +67,14 @@ const Contact = () => {
               id="name"
               placeholder="Your Name ..."
               name="name"
-              className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
+              className="mb-2 w-full rounded-md border border-blue-600 py-2 pl-2 pr-4 text-black"
             />
             <input
               type="email"
               id="email"
               placeholder="Your Email ..."
               name="email"
-              className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
+              className="mb-2 w-full rounded-md border border-blue-600 py-2 pl-2 pr-4 text-black"
             />
             <textarea
               name="textarea"
@@ -82,7 +82,7 @@ const Contact = () => {
               cols="30"
               rows="4"
               placeholder="Your Message ..."
-              className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
+              className="mb-2 w-full rounded-md border border-blue-600 py-2 pl-2 pr-4 text-black"
             />
             <button
               type="submit"
