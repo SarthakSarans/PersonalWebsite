@@ -8,16 +8,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
 const projects = [
-  {
-    img: project1,
-    title: "Arithmetic Logic Unit",
-    description:
-      "ALU built on ARM architecture in Logisim, performs binary calculations and input/output.",
-    links: {
-      site: "#",
-      github: "https://github.com/SarthakSarans/ALU",
-    },
-  },
+ 
   {
     img: project2,
     title: "Tetris",
@@ -26,6 +17,16 @@ const projects = [
     links: {
       site: "#",
       github: "https://github.com/SarthakSarans/Tetris",
+    },
+  },
+  {
+    img: project1,
+    title: "Arithmetic Logic Unit",
+    description:
+      "ALU built on ARM architecture in Logisim, performs binary calculations and input/output.",
+    links: {
+      site: "#",
+      github: "https://github.com/SarthakSarans/ALU",
     },
   },
   {
