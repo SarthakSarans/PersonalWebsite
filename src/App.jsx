@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import PdfViewer from "./components/PdfViewer"; // Import PdfViewer component
 import { Analytics } from "@vercel/analytics/react";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
               <Experience />
               <Projects />
               <Analytics />
+              <Contact />
             </>
           }
         />
