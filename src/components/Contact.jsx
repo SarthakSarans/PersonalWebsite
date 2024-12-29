@@ -13,8 +13,7 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                I am an Electrical and Computer Engineering student at the
-                University of Texas at Austin with a passion for exploring the
+                I am an Electrical and Computer Engineering student at UT Austin with a passion for exploring the
                 vast array of technologies shaping our world. Beyond academics,
                 I enjoy playing video games, staying active through workouts,
                 and trying out new activities that spark creativity and

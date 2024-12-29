@@ -23,7 +23,7 @@ const projects = [
     img: project1,
     title: "Arithmetic Logic Unit",
     description:
-      "ALU built on ARM architecture in Logisim, performs binary calculations and input/output.",
+      "ALU built on ARM architecture in Logisim, performs binary calculations and input/output. Created custom Python compiler for instructions",
     links: {
       site: "#",
       github: "https://github.com/SarthakSarans/ALU",
