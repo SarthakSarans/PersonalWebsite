@@ -45,8 +45,6 @@ const Navbar = () => {
           
         />
             </Link>
-        
-
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li>
             <Link to="experience" smooth={true} offset={-50} duration={500}>

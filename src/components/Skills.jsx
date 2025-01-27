@@ -65,7 +65,7 @@ const skills = [
         name: "Verilog",
         icon: <PiLetterCircleVFill className="text-gray-500" />,
       },
-      { name: "DSP", icon: <GiProcessor className="text-purple-600" /> },
+      { name: "FPGA", icon: <GiProcessor className="text-purple-600" /> },
       { name: "Assembly", icon: <TbAssembly className="text-yellow-500" /> },
     ],
   },
