@@ -45,7 +45,7 @@ const projects = [
     description: "High-efficiency Buck Converter in KiCad",
     links: {
       site: "#",
-      github: "#",
+      github: "https://github.com/SarthakSarans/Buck-Converter",
     },
   },
   {
